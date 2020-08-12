@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b32096a8-9c7f-4099-9ebf-b518841a721b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch05/gradient_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch05/train_nerualnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06/optimizer_compare_mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_common/optimizer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/two_layer_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/two_layer_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/layers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/wuzhenbo/学习材料/深度学习/【源代码】深度学习入门：基于Python的理论与实现" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.23655914" />
   </component>
@@ -161,10 +157,10 @@
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
     <state x="371" y="174" key="DiffContextDialog/0.0.3840.2088@0.0.3840.2088" timestamp="1597199026733" />
-    <state x="1482" y="528" key="FileChooserDialogImpl" timestamp="1597029472531">
+    <state x="1482" y="528" key="FileChooserDialogImpl" timestamp="1597218211822">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
-    <state x="1482" y="528" key="FileChooserDialogImpl/0.0.3840.2088@0.0.3840.2088" timestamp="1597029472531" />
+    <state x="1482" y="528" key="FileChooserDialogImpl/0.0.3840.2088@0.0.3840.2088" timestamp="1597218211822" />
     <state width="3796" height="880" key="GridCell.Tab.0.bottom" timestamp="1597200670746">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
@@ -197,10 +193,10 @@
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
     <state width="3796" height="660" key="GridCell.Tab.1.right/0.0.3840.2088@0.0.3840.2088" timestamp="1597200450318" />
-    <state x="930" y="309" key="SettingsEditor" timestamp="1597194099103">
+    <state x="930" y="309" key="SettingsEditor" timestamp="1597218199136">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
-    <state x="930" y="309" key="SettingsEditor/0.0.3840.2088@0.0.3840.2088" timestamp="1597194099103" />
+    <state x="930" y="309" key="SettingsEditor/0.0.3840.2088@0.0.3840.2088" timestamp="1597218199136" />
     <state x="1289" y="693" key="com.intellij.ide.util.TipDialog" timestamp="1597194078095">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
