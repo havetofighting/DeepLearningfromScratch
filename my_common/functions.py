@@ -21,4 +21,6 @@ def cross_entropy_error(y, t):
         t = t.argmax(axis=1)
 
     batch_size = y.shape[0]
+
+    # [np.arange(batch_size),t] 是索引 t是one-hot vector
     return -np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size

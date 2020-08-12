@@ -7,7 +7,7 @@ class Relu:
         self.mask = None
 
     def forward(self, x):
-        self.mask = x(x <= 0)
+        self.mask = (x <= 0)
         out = x.copy()
         out[self.mask] = 0
         return out
