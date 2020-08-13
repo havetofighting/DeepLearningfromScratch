@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b32096a8-9c7f-4099-9ebf-b518841a721b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch06/optimizer_compare_mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_common/optimizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06/weight_init_activation_histogram.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.23655914" />
   </component>
-  <component name="RunManager" selected="Python.train_nerualnet">
+  <component name="RunManager" selected="Python.weight_init_activation_histogram">
     <configuration name="buy_apple_orange" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="深度学习入门" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,8 +118,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="weight_init_activation_histogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="深度学习入门" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/weight_init_activation_histogram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.weight_init_activation_histogram" />
         <item itemvalue="Python.train_nerualnet" />
         <item itemvalue="Python.gradient_check" />
         <item itemvalue="Python.two_layer_net" />
@@ -149,10 +170,10 @@
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
     <state x="2104" y="403" width="1373" height="1050" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2088@0.0.3840.2088" timestamp="1597195357404" />
-    <state x="1207" y="339" key="CommitChangelistDialog2" timestamp="1597199039641">
+    <state x="1207" y="339" key="CommitChangelistDialog2" timestamp="1597307713701">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
-    <state x="1207" y="339" key="CommitChangelistDialog2/0.0.3840.2088@0.0.3840.2088" timestamp="1597199039641" />
+    <state x="1207" y="339" key="CommitChangelistDialog2/0.0.3840.2088@0.0.3840.2088" timestamp="1597307713701" />
     <state x="371" y="174" key="DiffContextDialog" timestamp="1597199026733">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
@@ -161,22 +182,22 @@
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
     <state x="1482" y="528" key="FileChooserDialogImpl/0.0.3840.2088@0.0.3840.2088" timestamp="1597218211822" />
-    <state width="3796" height="880" key="GridCell.Tab.0.bottom" timestamp="1597200670746">
+    <state width="3796" height="444" key="GridCell.Tab.0.bottom" timestamp="1597307718482">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
-    <state width="3796" height="880" key="GridCell.Tab.0.bottom/0.0.3840.2088@0.0.3840.2088" timestamp="1597200670746" />
-    <state width="3796" height="880" key="GridCell.Tab.0.center" timestamp="1597200670746">
+    <state width="3796" height="444" key="GridCell.Tab.0.bottom/0.0.3840.2088@0.0.3840.2088" timestamp="1597307718482" />
+    <state width="3796" height="444" key="GridCell.Tab.0.center" timestamp="1597307718482">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
-    <state width="3796" height="880" key="GridCell.Tab.0.center/0.0.3840.2088@0.0.3840.2088" timestamp="1597200670746" />
-    <state width="3796" height="880" key="GridCell.Tab.0.left" timestamp="1597200670746">
+    <state width="3796" height="444" key="GridCell.Tab.0.center/0.0.3840.2088@0.0.3840.2088" timestamp="1597307718482" />
+    <state width="3796" height="444" key="GridCell.Tab.0.left" timestamp="1597307718482">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
-    <state width="3796" height="880" key="GridCell.Tab.0.left/0.0.3840.2088@0.0.3840.2088" timestamp="1597200670746" />
-    <state width="3796" height="880" key="GridCell.Tab.0.right" timestamp="1597200670746">
+    <state width="3796" height="444" key="GridCell.Tab.0.left/0.0.3840.2088@0.0.3840.2088" timestamp="1597307718482" />
+    <state width="3796" height="444" key="GridCell.Tab.0.right" timestamp="1597307718482">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
-    <state width="3796" height="880" key="GridCell.Tab.0.right/0.0.3840.2088@0.0.3840.2088" timestamp="1597200670746" />
+    <state width="3796" height="444" key="GridCell.Tab.0.right/0.0.3840.2088@0.0.3840.2088" timestamp="1597307718482" />
     <state width="3796" height="660" key="GridCell.Tab.1.bottom" timestamp="1597200450318">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
@@ -197,10 +218,10 @@
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
     <state x="930" y="309" key="SettingsEditor/0.0.3840.2088@0.0.3840.2088" timestamp="1597218199136" />
-    <state x="1289" y="693" key="com.intellij.ide.util.TipDialog" timestamp="1597194078095">
+    <state x="1289" y="693" key="com.intellij.ide.util.TipDialog" timestamp="1597277695208">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
-    <state x="1289" y="693" key="com.intellij.ide.util.TipDialog/0.0.3840.2088@0.0.3840.2088" timestamp="1597194078095" />
+    <state x="1289" y="693" key="com.intellij.ide.util.TipDialog/0.0.3840.2088@0.0.3840.2088" timestamp="1597277695208" />
     <state x="1246" y="-2" width="1344" height="2556" key="search.everywhere.popup" timestamp="1597028974298">
       <screen x="0" y="0" width="3840" height="2088" />
     </state>
